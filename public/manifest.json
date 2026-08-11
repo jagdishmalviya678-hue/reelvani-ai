@@ -1,16 +1,24 @@
 {
   "name": "ReelVani AI - Regional Reels & Shorts Generator",
-  "short_name": "ReelVani",
-  "description": "Generate viral 15-30s Reels/Shorts scripts, captions & hashtags in authentic Indian regional languages.",
+  "short_name": "ReelVani AI",
+  "description": "Generate viral 15-30s Reels and Shorts scripts, captions, and hashtags in Hindi, Bhojpuri, Haryanvi, Marathi and regional languages.",
   "start_url": "/",
+  "id": "/",
   "display": "standalone",
   "background_color": "#0B0E17",
   "theme_color": "#FF6B00",
   "orientation": "portrait",
+  "categories": ["entertainment", "productivity", "utilities"],
   "icons": [
     {
-      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' rx='128' fill='%23FF6B00'/><text x='50%' y='68%' font-size='280' text-anchor='middle' fill='%23ffffff'>🎬</text></svg>",
-      "sizes": "192x192 512x512",
+      "src": "/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.svg",
+      "sizes": "512x512",
       "type": "image/svg+xml",
       "purpose": "any maskable"
     }
